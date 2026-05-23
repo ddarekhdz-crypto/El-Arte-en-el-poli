@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>El Arte del Poli</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="icon" type="image/x-icon" href="l.ico">
+  </head>
+  <body>
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark menu">
+        
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Revista Digital CECyT 5</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacion">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuNavegacion">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Categorias</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="musica.html" >Musica</a></li>
+                            <li><a class="dropdown-item" href="Deportes.html">Deportes</a></li>
+                            <li><a class="dropdown-item" href="videojuegos.html">Videojuegos</a></li>
+                            <li><a class="dropdown-item" href="moda.html">Moda</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="SobreNosotros.html">Sobre Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+      <div class="menuNav">
+        <h1>'EL ARTE DEL POLI'</h1>
+        <div id="carruselPrincipal" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Img/musica.png" class="d-block w-100" alt="Imagen 1" height="70%">
+                    <div class="texto-carrusel"><a href="#musica">Música</a></div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Img/deportes.png" class="d-block w-100" alt="Imagen 2" height="70%">
+                    <div class="texto-carrusel"><a href="#deportes">Deportes</a></div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Img/videojuegos.png" class="d-block w-100" alt="Imagen 3" height="70%">
+                    <div class="texto-carrusel"><a href="#videojuegos">Videojuegos</a></div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Img/moda.png" class="d-block w-100" alt="Imagen 4" height="70%">
+                    <div class="texto-carrusel"><a href="#moda">Moda</a></div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carruselPrincipal" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carruselPrincipal" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+      </div>
+    </header>
+    <br><br>
+    <main>
+      <section id="musica" class="caja1e">
+        <h2>Música</h2>
+        <p>Aquí encontrarás información sobre géneros, artistas, épocas y más.</p>
+        <br>
+        <div style="text-align: center;">
+         <img src="Img/musica.png" alt="Imagen de música" class="img-fluid">
+        </div>
+      </section>
+      <br>
+      <section id="deportes" class="caja1e">
+        <h2>Deportes</h2>
+        <p>Voleibol, basquetbol, taekwondo, frontón y mucho más.</p>
+        <br>
+        <div style="text-align: center;">
+         <img src="Img/deportes.png" alt="Imagen de deportes" class="img-fluid">
+        </div>
+      </section>
+      <br>
+      <section id="videojuegos" class="caja1e">
+        <h2>Videojuegos</h2>
+        <p>Géneros, consolas, los mejores juegos y más.</p>
+        <br>
+        <div style="text-align: center;">
+         <img src="Img/videojuegos.png" alt="Imagen de videojuegos" class="img-fluid">
+        </div>
+      </section>
+      <br>
+      <section id="moda" class="caja1e">
+        <h2>Moda</h2>
+        <p>Outfits, inspiración, tendencias y mucho más.</p>
+        <br>
+        <div style="text-align: center;">
+         <img src="Img/moda.png" alt="Imagen de moda" class="img-fluid">
+        </div>
+      </section>
+    </main>
+    <br><br>
+    <footer>
+      <p>© 2026 'La Arte del Poli' — CECyT 5 "Benito Juárez" · Grupo 6IM10</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
